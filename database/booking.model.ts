@@ -57,7 +57,7 @@ BookingSchema.pre('save', async function (next) {
     }
   }
 
-  Next();
+  next();
 });
 
 // Create index on eventId for faster queries
